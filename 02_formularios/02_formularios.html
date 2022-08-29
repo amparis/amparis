@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>FORMULARIO</title></head>
+    <body>
+        <form action="resultado.html" method="GET">
+            <!--agrupara elementos checkbox input, etc  POST enviara al servidor-->
+            <div>
+            <label for="nombreusuario">NOMBRE DE USUARIO</label>
+            <input name= "nombreusuario" id="nombreusuario" required></div>
+            <div>
+                <label for="comentarios">COMENTARIOS</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <div>    
+            <label for="password">CONTRASE;A</label>
+            
+            <input type="password" name = "password" id="password" required></div>
+           <label for = "edad">Cual es tu edad</label>
+           <input type="number" name="edad" id="edad" min="0" max="200" step="5">
+           <label for = "nacimiento">Cual es tu fecha de nacimiento</label>
+           <input type="date" name="nacimiento" id="nacimiento" >
+<br>
+           <button type="reset">RESET</button>
+            <button type="submit">enviar</button><!---envia con un enter la info-->
+        </form>
+    </body>
+</html>
