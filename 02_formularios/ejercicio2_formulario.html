@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Ejercicio 02 - Formularios en HTML</title></head>
+    <body>
+        <form action="/" method="GET">
+            <!--agrupara elementos checkbox input, etc  POST enviara al servidor-->
+            <div>
+            <label for="nombre">NOMBRE </label>
+            <input type="text" name= "nombre" id="nombre" required></div>
+            <div>
+                <label for = "edad">EDAD</label>
+                <input type="number" name="edad" id="edad" min="0" max="200" step="5">
+            </div>
+            <div>
+                <label for="frase-favorita">FRASE FAVORITA</label>
+                <textarea name="frase-favorita" id="frase-favorita"></textarea>
+            </div>
+ <br>
+           <button type="reset">RESET</button>
+            <button type="submit">enviar</button><!---envia con un enter la info-->
+        </form>
+    </body>
+</html>
