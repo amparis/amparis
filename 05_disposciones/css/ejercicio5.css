@@ -1,0 +1,10 @@
+.galeria {
+background-color: aquamarine;
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+.imagen-galeria {
+    width: 300px;
+    flex-wrap: wrap;
+}
