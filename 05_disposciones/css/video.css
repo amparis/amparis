@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+.video {
+    width: 100vw; /**100% de la pantalla*/
+    height: 100vh;
+    object-fit: cover; /*no se comprimira, osea lo rellenara la pag*/
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;/*l boton baja, todo se baja*/
+    justify-content: center;
+    align-items: center;
+}
