@@ -1,0 +1,33 @@
+.colores {
+    color: orangered;
+}
+.color-hexadecimal {
+    color: #bce456;
+}
+.color-rgb {
+    color: rgb(100,0,200);
+}
+.color-rgba{
+    color: rgba(10,10, 10, 0.4);
+}
+.fondo {
+    /*background-color: aquamarine;*/
+    background-image: url("https://st.depositphotos.com/1001564/2470/i/600/depositphotos_24704059-stock-photo-background.jpg");
+    background-position: center center;
+}
+.ancho {
+    background-color: lightpink;
+    width: 100px; ;
+}
+.alto {
+    background-color: aquamarine;
+    height: 250px;
+}
+.tarjeta {
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-top: none;/*quito el borde de arriba*/
+    padding: 10px 20px; /*borde interno*/
+    margin: 30px 50px;
+}
