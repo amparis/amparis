@@ -1,0 +1,27 @@
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: darkmagenta;
+}
+div .boton {
+    display: none;
+}
+div >button:before {
+    display: block;
+    content: 'Pasa por encima';
+    font-size: medium;
+}
+div >button:hover {
+    color: white;
+    background-color: green;
+    content: 'fghjk';
+}
+button:active {/*cuando hace click*/
+    /*display:block;*/
+    content: "HECHO!";
+    color: yellow;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,25 @@
+/*los CSS se ejecutan de arriba hacia abajo*/
+/*
+(1,0,0)-- (0,1,0)-- (0,0,1)-- (0,0,0)
+*/
+h1 { /*especificidad 0,0,1*/
+    /*con la etiqueta !IMPORTANT, 
+    ese prevalece sin importar del html(4nivel)*/
+    color: blue!important; /*%nivel*/
+}
+/*h1{
+    color: green;
+}*/
+#h1-id.h1-clase{/*especificidad (1,1,0)*/
+    color: orangered;
+    }
+.h1-clase { /*especificidad 0,1,0*/
+    color: yellow;
+}
+#h1-id {/*especificidad 1,0,0 */
+    color: darksalmon;
+}
+
+p {
+    color: red;
+}

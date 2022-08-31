@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>PSEUDO-CLASES</title>
+     <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        
+        }
+        .hover:hover {/*se activa cuando el mouse pasa*/
+            background-color: aquamarine;
+        }
+        .listado {
+            padding: 15px;
+            background-color: blueviolet;
+        }
+        .listado p:first-child {/*el primer hijo*/
+            color: beige;
+
+        }
+        a:link {/*llink no visitao todvia*/
+            color: deeppink;
+        }
+        a:visited {
+            color: chocolate;
+        }
+        a:hover{
+            color: gold;
+        }
+        a:active{/*cuando hago click --- el orden hay q mantener*/
+            color: greenyellow;
+        }
+     </style>
+</head>
+<body>
+    <div class="hover">
+<p>Commodo id nulla laborum elit aliqua nisi cillum duis excepteur 
+    duis nisi eu laborum. Officia irure sunt et anim velit eiusmod
+     incididunt anim aute incididunt cil
+         aliquip excepteur Lorem anim elit ea ullamco deserunt.</p>
+    </div>
+    <div class="listado">
+        <p>parafo 1</p>
+        <p>parafo 1</p>
+        <p>parafo 1</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">enlace google</a>
+        <a href="http://marca.com" target="_blank">enlace marca</a>
+
+    </div>
+</body>
+</html>
