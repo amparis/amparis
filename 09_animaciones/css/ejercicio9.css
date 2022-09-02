@@ -1,0 +1,29 @@
+div {
+margin: 0px;
+padding: 0px;
+align-items: center;
+width: 80%;
+height: 100px;
+display: flex;
+
+}
+
+.btn-modern {
+background-color: blueviolet;
+color: antiquewhite;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: oblique;
+font-size: 20px;
+padding: 5px 10px;
+border: none;
+box-shadow: none;
+}
+.btn-modern:hover {
+ /*   box-shadow: 0.5 indianred;*/
+box-shadow:5px 5px;
+ background-color: lightcoral;
+ color: blue;
+    /*animation: traslacion 2s;*/
+    text-transform: uppercase;
+    transition: transform 1s ease-in 2s;
+}
