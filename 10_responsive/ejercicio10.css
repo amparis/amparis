@@ -1,0 +1,42 @@
+.contenedor {
+    display: flex;
+    background-color: yellow;
+    gap:5px;
+    border:solid blue;
+    padding: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div1 {
+    background-color: aqua;
+         width: 80%;
+        padding: 8px;
+        border:solid blue;
+        justify-content: left;
+        align-content: space-between;
+}
+.e {
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 0.25rem;
+    width: 100px;
+    /*flex-direction: column;*/
+}
+.div2 {
+    flex-grow: 50% 50%;
+    border:solid blue;
+}
+@media (max-width: 640px) {
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+    .div1{
+       justify-content:flex-end;
+    }
+    .e{
+        background-color: orangered;
+        width: 10rem;
+
+    }
+
+}
